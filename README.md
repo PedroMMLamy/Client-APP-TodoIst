@@ -152,6 +152,8 @@ const Todo = mongoose.Schema({
 module.exports = mongoose.model("Todo", Todo);
 ```
 
+
+
 - ``` User Model:
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
