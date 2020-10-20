@@ -3,10 +3,10 @@
 **TODOIST - Read Me - Client**
 
 
-# Description
+# Description:
 Improve your professional & Personal life satisfaction. Organize your to do tasks in an easy and clear way to simplify your daily routine.
 
-## User Stories
+## User Stories:
 - **404** - user warning that the page doesn’t exist 
 
 - **500** -  user warning that something in the page isn’t working
@@ -32,12 +32,12 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 - **other profiles** - other users personal list of To do’s
 
 
-## Backlog
+## Backlog:
 Other features besides the mvp scope:
 . Task Category (Professional/Personal)
 
 
-## Frontend
+## Frontend:
 Homepage
 CSS
 HTML
