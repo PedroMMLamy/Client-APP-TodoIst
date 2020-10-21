@@ -190,13 +190,58 @@ const User = mongoose.model('User', userSchema);
 module.exports = User;
 ```
  
+## Components
 
+- Home
 
-# Links:
+- Login
 
-# Trello:
-Trello board
+- Signup
 
-# Git:
-Server Repository Link
-Client Repository Link
+- Curator
+
+- User
+
+- Artwork
+
+- EditCollection
+
+- EditUser
+
+- LikedWorks
+
+## Services
+
+- Auth Service
+  - auth.login(user)
+  - auth.signup(user)
+  - auth.edit(user)
+  - auth.logout()
+- Curator Service
+  - artwork.random()
+  - artwork.add(id)
+  - artwork.single(id)
+
+<br>
+
+## Links
+
+### Trello/Kanban
+
+[Trello](https://trello.com/b/awnRyXFw/todoist)
+
+### Git
+
+The url to your repository and to your deployed project
+
+[Client repository Link](https://github.com/PedroMMLamy/Client-APP-TodoIst)
+
+[Server repository Link](https://github.com/PedroMMLamy/Server-APP-TodoIst)
+
+[Deployed App Link](http://heroku.com)
+
+### Slides
+
+The url to your presentation slides
+
+[Slides Link](http://slides.com)
