@@ -139,7 +139,8 @@ renders the new To Do form
 To do description:
 To do text box description
 
-## API Endpoints (backend routes) Adaptar
+
+## API Endpoints (backend routes)
 
 | HTTP Method | URL                | Request Body                 | Success status | Error Status | Description                                                                                                                     |
 | ----------- | ------------------ | ---------------------------- | -------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -148,11 +149,11 @@ To do text box description
 | POST        | `/auth/login`      | {email, password}            | 200            | 401          | Checks if fields not empty (422), if user exists (404), and if password matches (404), then stores user in session              |
 | POST        | `/auth/logout`     | (empty)                      | 204            | 400          | Logs out the user                                                                                                               |
 | GET         | `/auth/user`       | {id}                         | 200            | 400          | Retrieve user information, including user's liked artworks (populated)                                                          |
-| POST        | `/auth/user/edit`  | {id, name, email, artworkId} | 201            | 400          | Edits user's name, email and/or list of liked artworks                                                                          |
-| GET         | `/artwork/random`  | (empty)                      | 200            | 400          | Return random artwork from MetAPI                                                                                               |
-| GET         | `/artwork/:id`     | {id}                         | 200            | 400          | Return specific artwork from MetAPI                                                                                             |
-| POST        | `/artwork/add/:id` | {id, userId}                 | 201            | 400          | Create new artwork in own database                                                                                              |
-| GET         | `/artwork/liked`   | (empty)                      | 200            | 400          | Retrieves all liked artworks from own database   
+| POST        | `/auth/user/edit`  | {id, name, email, Todo} | 201            | 400          | Edits user's name, email and/or list to do´s                                                                          |
+| GET         | `/todo/:id`     | {id}                         | 200            | 400          | Return specific todo from MetAPI                                                                                               |
+| GET         | `/todo/:id`     | {id}                         | 200            | 400          | Return specific todo from MetAPI                                                                                             |
+| POST        | `/todo/add/:id` | {id, userId}                 | 201            | 400          | Create new todo in user´s database   
+
 
 # Models:
 
